@@ -1,0 +1,9 @@
+timeouts.c:125:1:tcpip_tcp_timer	16	static
+timeouts.c:147:1:tcp_timer_needed	8	static
+timeouts.c:164:1:cyclic_timer	24	static
+timeouts.c:175:6:sys_timeouts_init	16	static
+timeouts.c:204:1:sys_timeout	40	static
+timeouts.c:273:1:sys_untimeout	24	static
+timeouts.c:313:1:sys_check_timeouts	32	static
+timeouts.c:369:1:sys_restart_timeouts	8	static
+timeouts.c:381:1:sys_timeouts_sleeptime	16	static

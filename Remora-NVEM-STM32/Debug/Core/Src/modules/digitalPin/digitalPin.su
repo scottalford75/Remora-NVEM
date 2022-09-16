@@ -1,0 +1,8 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+pin.h:49:21:bool Pin::get()	16	static
+pin.h:54:21:void Pin::set(bool)	16	static
+digitalPin.cpp:76:1:DigitalPin::DigitalPin(volatile uint32_t&, int, std::string, int, bool, int)	56	static
+digitalPin.cpp:89:6:virtual void DigitalPin::update()	24	static
+digitalPin.cpp:121:6:virtual void DigitalPin::slowUpdate()	16	static
+digitalPin.h:10:7:DigitalPin::~DigitalPin()	16	static
+digitalPin.h:10:7:virtual DigitalPin::~DigitalPin()	16	static

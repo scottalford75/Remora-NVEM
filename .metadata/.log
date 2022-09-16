@@ -1,0 +1,21 @@
+!SESSION 2022-09-16 10:44:08.286 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-16 10:44:23.396
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-16 10:44:23.450
+!MESSAGE Log4j initialized with config file D:\Local Repositories\Remora-NVEM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-16 10:44:25.747
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-16 10:45:44.304
+!MESSAGE Indexed 'Remora-NVEM-STM32' (97 sources, 168 headers) in 5.08 sec: 9,189 declarations; 60,426 references; 0 unresolved inclusions; 1 syntax errors; 35 unresolved names (0.05%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-16 10:47:02.055
+!MESSAGE Indexed 'Remora-NVEM-STM32' (115 sources, 545 headers) in 12.2 sec: 31,806 declarations; 103,024 references; 0 unresolved inclusions; 1 syntax errors; 47 unresolved names (0.035%)

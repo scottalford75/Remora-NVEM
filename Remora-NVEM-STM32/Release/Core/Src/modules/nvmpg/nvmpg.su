@@ -1,0 +1,8 @@
+../Core/Src/modules/nvmpg/nvmpg.cpp:147:6:virtual void NVMPG::slowUpdate()	0	static
+../Core/Src/modules/nvmpg/nvmpg.cpp:152:6:virtual void NVMPG::configure()	0	static
+../Core/Src/modules/nvmpg/nvmpg.cpp:111:6:virtual void NVMPG::update()	16	static
+../Core/Src/modules/nvmpg/nvmpg.cpp:158:6:virtual void NVMPG::handleInterrupt()	16	static
+../Core/Src/modules/nvmpg/nvmpg.h:18:7:NVMPG::~NVMPG()	8	static
+../Core/Src/modules/nvmpg/nvmpg.h:18:7:virtual NVMPG::~NVMPG()	8	static
+../Core/Src/modules/nvmpg/nvmpg.cpp:23:1:NVMPG::NVMPG(volatile mpgData_t&, volatile uint16_t&)	80	static
+../Core/Src/modules/nvmpg/nvmpg.cpp:9:6:void createNVMPG()	16	static

@@ -1,0 +1,4 @@
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c:86:19:HAL_RCCEx_PeriphCLKConfig	32	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c:200:6:HAL_RCCEx_GetPeriphCLKConfig	8	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c:240:19:HAL_RCCEx_EnablePLLI2S	16	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c:288:19:HAL_RCCEx_DisablePLLI2S	16	static

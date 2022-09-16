@@ -1,0 +1,161 @@
+core_cm3.h:1639:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+collectiondata.hpp:45:16:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::CollectionData::head() const	16	static
+variantslot.hpp:33:16:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::VariantSlot::data()	16	static
+variantslot.hpp:41:16:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::VariantSlot::next()	16	static
+variantslot.hpp:66:8:void ArduinoJson6101_110::VariantSlot::setNextNotNull(ArduinoJson6101_110::VariantSlot*)	16	static
+variantslot.hpp:71:8:void ArduinoJson6101_110::VariantSlot::setOwnedKey(ArduinoJson6101_110::not_null<const char*>)	16	static
+variantslot.hpp:81:15:const char* ArduinoJson6101_110::VariantSlot::key() const	16	static
+variantslot.hpp:89:8:void ArduinoJson6101_110::VariantSlot::clear()	16	static
+Alignment.hpp:17:15:size_t ArduinoJson6101_110::addPadding(size_t)	24	static
+memorypool.hpp:26:3:ArduinoJson6101_110::MemoryPool::MemoryPool(char*, size_t)	24	static
+memorypool.hpp:36:9:void* ArduinoJson6101_110::MemoryPool::buffer()	16	static
+memorypool.hpp:49:16:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::MemoryPool::allocVariant()	16	static
+memorypool.hpp:61:14:ArduinoJson6101_110::StringSlot ArduinoJson6101_110::MemoryPool::allocExpandableString()	16	static
+memorypool.hpp:70:8:void ArduinoJson6101_110::MemoryPool::freezeString(ArduinoJson6101_110::StringSlot&, size_t)	24	static
+memorypool.hpp:76:8:void ArduinoJson6101_110::MemoryPool::clear()	16	static
+memorypool.hpp:81:8:bool ArduinoJson6101_110::MemoryPool::canAlloc(size_t) const	16	static
+memorypool.hpp:94:9:void* ArduinoJson6101_110::MemoryPool::allocRight(size_t)	16	static
+memorypool.hpp:110:8:void ArduinoJson6101_110::MemoryPool::checkInvariants()	16	static
+ConstRamStringAdapter.hpp:14:3:ArduinoJson6101_110::ConstRamStringAdapter::ConstRamStringAdapter(const char*)	16	static
+ConstRamStringAdapter.hpp:16:8:bool ArduinoJson6101_110::ConstRamStringAdapter::equals(const char*) const	24	static
+ConstRamStringAdapter.hpp:48:30:ArduinoJson6101_110::ConstRamStringAdapter ArduinoJson6101_110::adaptString(const char*)	24	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+VariantData.hpp:69:19:ArduinoJson6101_110::CollectionData* ArduinoJson6101_110::VariantData::asArray()	16	static
+VariantData.hpp:77:19:ArduinoJson6101_110::CollectionData* ArduinoJson6101_110::VariantData::asObject()	16	static
+VariantData.hpp:137:8:bool ArduinoJson6101_110::VariantData::isArray() const	16	static
+VariantData.hpp:172:8:bool ArduinoJson6101_110::VariantData::isObject() const	16	static
+VariantData.hpp:189:8:void ArduinoJson6101_110::VariantData::setBoolean(bool)	16	static
+VariantData.hpp:194:8:void ArduinoJson6101_110::VariantData::setFloat(ArduinoJson6101_110::Float)	24	static
+VariantData.hpp:242:8:void ArduinoJson6101_110::VariantData::setPositiveInteger(ArduinoJson6101_110::UInt)	24	static
+VariantData.hpp:247:8:void ArduinoJson6101_110::VariantData::setNegativeInteger(ArduinoJson6101_110::UInt)	24	static
+VariantData.hpp:261:8:void ArduinoJson6101_110::VariantData::setNull()	16	static
+VariantData.hpp:265:8:void ArduinoJson6101_110::VariantData::setOwnedString(ArduinoJson6101_110::not_null<const char*>)	16	static
+VariantData.hpp:290:19:ArduinoJson6101_110::CollectionData& ArduinoJson6101_110::VariantData::toArray()	16	static
+VariantData.hpp:296:19:ArduinoJson6101_110::CollectionData& ArduinoJson6101_110::VariantData::toObject()	16	static
+VariantData.hpp:349:11:uint8_t ArduinoJson6101_110::VariantData::type() const	16	static
+VariantData.hpp:353:8:void ArduinoJson6101_110::VariantData::setType(uint8_t)	16	static
+SlotFunctions.hpp:36:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::slotData(ArduinoJson6101_110::VariantSlot*)	16	static
+VariantFunctions.hpp:27:24:ArduinoJson6101_110::CollectionData* ArduinoJson6101_110::variantAsObject(ArduinoJson6101_110::VariantData*)	16	static
+ArrayIterator.hpp:30:3:ArduinoJson6101_110::ArrayIterator::ArrayIterator()	16	static
+ArrayIterator.hpp:31:12:ArduinoJson6101_110::ArrayIterator::ArrayIterator(ArduinoJson6101_110::MemoryPool*, ArduinoJson6101_110::VariantSlot*)	24	static
+ArrayIterator.hpp:34:14:ArduinoJson6101_110::VariantRef ArduinoJson6101_110::ArrayIterator::operator*() const	32	static
+ArrayIterator.hpp:45:8:bool ArduinoJson6101_110::ArrayIterator::operator!=(const ArduinoJson6101_110::ArrayIterator&) const	16	static
+ArrayIterator.hpp:49:18:ArduinoJson6101_110::ArrayIterator& ArduinoJson6101_110::ArrayIterator::operator++()	16	static
+JsonDocument.hpp:34:8:void ArduinoJson6101_110::JsonDocument::clear()	16	static
+JsonDocument.hpp:81:15:ArduinoJson6101_110::MemoryPool& ArduinoJson6101_110::JsonDocument::memoryPool()	16	static
+JsonDocument.hpp:85:16:ArduinoJson6101_110::VariantData& ArduinoJson6101_110::JsonDocument::data()	16	static
+JsonDocument.hpp:282:3:ArduinoJson6101_110::JsonDocument::JsonDocument(ArduinoJson6101_110::MemoryPool)	24	static
+DynamicJsonDocument.hpp:14:9:void* ArduinoJson6101_110::DefaultAllocator::allocate(size_t)	16	static
+DynamicJsonDocument.hpp:18:8:void ArduinoJson6101_110::DefaultAllocator::deallocate(void*)	16	static
+CollectionImpl.hpp:12:21:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::CollectionData::addSlot(ArduinoJson6101_110::MemoryPool*)	24	static
+CollectionImpl.hpp:28:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::CollectionData::add(ArduinoJson6101_110::MemoryPool*)	16	static
+CollectionImpl.hpp:39:13:void ArduinoJson6101_110::CollectionData::clear()	16	static
+ctype.hpp:9:13:bool ArduinoJson6101_110::isdigit(char)	16	static
+VariantImpl.hpp:70:20:const char* ArduinoJson6101_110::VariantData::asString() const	16	static
+stringbuilder.hpp:13:12:ArduinoJson6101_110::StringBuilder::StringBuilder(ArduinoJson6101_110::MemoryPool*)	32	static
+stringbuilder.hpp:25:8:void ArduinoJson6101_110::StringBuilder::append(char)	16	static
+stringbuilder.hpp:36:9:char* ArduinoJson6101_110::StringBuilder::complete()	16	static
+StringCopier.hpp:16:3:ArduinoJson6101_110::StringCopier::StringCopier(ArduinoJson6101_110::MemoryPool*)	16	static
+StringCopier.hpp:18:17:ArduinoJson6101_110::StringCopier::StringBuilder ArduinoJson6101_110::StringCopier::startString()	16	static
+CharPointerReader.hpp:13:12:ArduinoJson6101_110::UnsafeCharPointerReader::UnsafeCharPointerReader(const char*)	16	static
+CharPointerReader.hpp:16:8:char ArduinoJson6101_110::UnsafeCharPointerReader::read()	16	static
+CharPointerReader.hpp:20:8:bool ArduinoJson6101_110::UnsafeCharPointerReader::ended() const	16	static
+DeserializationError.hpp:16:8:void ArduinoJson6101_110::DeserializationError::safeBoolHelper() const	16	static
+DeserializationError.hpp:29:3:ArduinoJson6101_110::DeserializationError::DeserializationError(ArduinoJson6101_110::DeserializationError::Code)	16	static
+DeserializationError.hpp:56:3:ArduinoJson6101_110::DeserializationError::operator ArduinoJson6101_110::DeserializationError::bool_type() const	16	static
+DeserializationError.hpp:73:8:ArduinoJson6101_110::DeserializationError::Code ArduinoJson6101_110::DeserializationError::code() const	16	static
+NestingLimit.hpp:12:3:ArduinoJson6101_110::NestingLimit::NestingLimit()	16	static
+EscapeSequence.hpp:21:15:static char ArduinoJson6101_110::EscapeSequence::unescapeChar(char)	24	static
+EscapeSequence.hpp:31:22:static const char* ArduinoJson6101_110::EscapeSequence::escapeTable(bool)	16	static
+irqHandlers.h:5:7:void TIM1_UP_TIM10_IRQHandler()	8	static
+irqHandlers.h:15:7:void TIM2_IRQHandler()	8	static
+irqHandlers.h:26:7:void DMA2_Stream2_IRQHandler()	8	static
+createThreads.h:4:6:void createThreads()	16	static
+main.cpp:109:6:int __io_putchar(int)	16	static
+main.cpp:190:8:int8_t checkJson()	40	static,ignoring_inline_asm
+main.cpp:234:6:void moveJson()	24	static
+main.cpp:260:6:void jsonFromFlash(std::string)	32	static
+main.cpp:288:6:void deserialiseJSON()	24	static
+main.cpp:320:6:void configThreads()	256	static
+main.cpp:349:6:void loadModules()	256	static
+main.cpp:386:6:void debugThreadHigh()	80	static
+main.cpp:395:6:void debugThreadLow()	80	static
+main.cpp:410:5:int main()	40	static
+main.cpp:603:6:void SystemClock_Config()	80	static
+main.cpp:645:13:void MX_USART2_UART_Init()	8	static
+main.cpp:679:13:void MX_IWDG_Init()	8	static
+main.cpp:707:6:void Error_Handler()	4	static,ignoring_inline_asm
+main.cpp:736:6:void udpServer_init()	24	static
+main.cpp:778:6:void udp_data_callback(void*, udp_pcb*, pbuf*, const ip_addr_t*, u16_t)	40	static
+main.cpp:829:6:void udp_mpg_callback(void*, udp_pcb*, pbuf*, const ip_addr_t*, u16_t)	24	static
+not_null.hpp:18:5:T ArduinoJson6101_110::not_null<T>::get() const [with T = const char*]	16	static
+memorypool.hpp:90:6:T* ArduinoJson6101_110::MemoryPool::allocRight() [with T = ArduinoJson6101_110::VariantSlot]	16	static
+not_null.hpp:28:13:ArduinoJson6101_110::not_null<T> ArduinoJson6101_110::make_not_null(T) [with T = const char*]	24	static
+VariantRef.hpp:116:3:ArduinoJson6101_110::VariantRefBase<TData>::VariantRefBase(TData*) [with TData = ArduinoJson6101_110::VariantData]	16	static
+ArrayRef.hpp:52:3:ArduinoJson6101_110::ArrayRefBase<TData>::ArrayRefBase(TData*) [with TData = ArduinoJson6101_110::CollectionData]	16	static
+ObjectRef.hpp:47:3:ArduinoJson6101_110::ObjectRefBase<TData>::ObjectRefBase(TData*) [with TData = ArduinoJson6101_110::CollectionData]	16	static
+CollectionImpl.hpp:116:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::CollectionData::get(TAdaptedString) const [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	24	static
+BasicJsonDocument.hpp:33:12:ArduinoJson6101_110::BasicJsonDocument<TAllocator>::BasicJsonDocument(size_t, TAllocator) [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	56	static
+JsonDeserializer.hpp:396:22:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::deserializeJson(ArduinoJson6101_110::JsonDocument&, TInput*, ArduinoJson6101_110::NestingLimit) [with TInput = const char]	24	static
+not_null.hpp:14:12:ArduinoJson6101_110::not_null<T>::not_null(T) [with T = const char*]	16	static
+CollectionImpl.hpp:92:21:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::CollectionData::getSlot(TAdaptedString) const [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	24	static
+BasicJsonDocument.hpp:73:14:ArduinoJson6101_110::MemoryPool ArduinoJson6101_110::BasicJsonDocument<TAllocator>::allocPool(size_t) [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	32	static
+BasicJsonDocument.hpp:16:3:ArduinoJson6101_110::AllocatorOwner<TAllocator>::AllocatorOwner(TAllocator) [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	16	static
+deserialize.hpp:43:22:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::deserialize(ArduinoJson6101_110::JsonDocument&, TChar*, ArduinoJson6101_110::NestingLimit) [with TDeserializer = ArduinoJson6101_110::JsonDeserializer; TChar = const char]	56	static
+VariantCasts.hpp:20:16:const TImpl* ArduinoJson6101_110::VariantCasts<TImpl>::impl() const [with TImpl = ArduinoJson6101_110::MemberProxy<ArduinoJson6101_110::JsonDocument&, const char*>]	16	static
+VariantCasts.hpp:20:16:const TImpl* ArduinoJson6101_110::VariantCasts<TImpl>::impl() const [with TImpl = ArduinoJson6101_110::VariantRef]	16	static
+objectshortcuts.hpp:70:18:const TObject* ArduinoJson6101_110::ObjectShortcuts<TObject>::impl() const [with TObject = ArduinoJson6101_110::ObjectRef]	16	static
+VariantCasts.hpp:20:16:const TImpl* ArduinoJson6101_110::VariantCasts<TImpl>::impl() const [with TImpl = ArduinoJson6101_110::MemberProxy<const ArduinoJson6101_110::ObjectRef&, const char*>]	16	static
+BasicJsonDocument.hpp:18:9:void* ArduinoJson6101_110::AllocatorOwner<TAllocator>::allocate(size_t) [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	16	static
+CharPointerReader.hpp:44:32:ArduinoJson6101_110::UnsafeCharPointerReader ArduinoJson6101_110::makeReader(TChar*) [with TChar = const char]	24	static
+StringStorage.hpp:38:38:typename ArduinoJson6101_110::StringStorage<TChar*>::type ArduinoJson6101_110::makeStringStorage(ArduinoJson6101_110::MemoryPool&, TChar*) [with TChar = const char]	16	static
+deserialize.hpp:20:33:TDeserializer<TReader, TWriter> ArduinoJson6101_110::makeDeserializer(ArduinoJson6101_110::MemoryPool&, TReader, TWriter, uint8_t) [with TDeserializer = ArduinoJson6101_110::JsonDeserializer; TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TWriter = ArduinoJson6101_110::StringCopier]	32	static
+JsonDeserializer.hpp:30:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parse(ArduinoJson6101_110::VariantData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	32	static
+StringStorage.hpp:16:15:static ArduinoJson6101_110::StringStorage<TInput, Enable>::type ArduinoJson6101_110::StringStorage<TInput, Enable>::create(ArduinoJson6101_110::MemoryPool&, TInput&) [with TInput = const char*; Enable = void]	24	static
+JsonDeserializer.hpp:23:3:ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::JsonDeserializer(ArduinoJson6101_110::MemoryPool&, TReader, TStringStorage, uint8_t) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	24	static
+JsonDeserializer.hpp:321:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::skipSpacesAndComments() [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	40	static
+JsonDeserializer.hpp:49:8:char ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::current() [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+JsonDeserializer.hpp:70:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseArray(ArduinoJson6101_110::CollectionData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	104	static
+JsonDeserializer.hpp:105:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseObject(ArduinoJson6101_110::CollectionData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	144	static
+JsonDeserializer.hpp:155:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseValue(ArduinoJson6101_110::VariantData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+variantas.hpp:76:1:typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_same<T, const char*>::value || ArduinoJson6101_110::is_same<T, char*>::value), const char*>::type ArduinoJson6101_110::variantAs(const ArduinoJson6101_110::VariantData*) [with T = const char*]	16	static
+variantas.hpp:55:59:typename ArduinoJson6101_110::enable_if<ArduinoJson6101_110::is_integral<T>::value, T>::type ArduinoJson6101_110::variantAs(const ArduinoJson6101_110::VariantData*) [with T = long unsigned int]	16	static
+JsonDeserializer.hpp:60:8:void ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::move() [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+JsonDeserializer.hpp:163:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseKey(const char*&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+JsonDeserializer.hpp:311:22:static bool ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::isQuote(char) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+JsonDeserializer.hpp:171:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseStringValue(ArduinoJson6101_110::VariantData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	40	static
+JsonDeserializer.hpp:241:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseNumericValue(ArduinoJson6101_110::VariantData&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	136	static
+VariantData.hpp:335:16:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::VariantData::getMember(TAdaptedString) const [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	16	static
+VariantImpl.hpp:18:10:T ArduinoJson6101_110::VariantData::asIntegral() const [with T = long unsigned int]	16	static
+JsonDeserializer.hpp:179:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseQuotedString(const char*&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	56	static
+JsonDeserializer.hpp:220:24:ArduinoJson6101_110::DeserializationError ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::parseNonQuotedString(const char*&) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	48	static
+JsonDeserializer.hpp:306:22:static bool ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::canBeInNonQuotedString(char) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+parseNumber.hpp:55:36:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt> ArduinoJson6101_110::parseNumber(const char*) [with TFloat = double; TUInt = long long unsigned int]	144	static
+parseNumber.hpp:42:11:uint8_t ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::type() const [with TFloat = double; TUInt = long long unsigned int]	16	static
+ObjectFunctions.hpp:26:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::objectGet(const ArduinoJson6101_110::CollectionData*, TAdaptedString) [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	16	static
+convertNumber.hpp:74:6:TOut ArduinoJson6101_110::convertPositiveInteger(TIn) [with TOut = long unsigned int; TIn = long long unsigned int]	16	static
+convertNumber.hpp:79:6:TOut ArduinoJson6101_110::convertNegativeInteger(TIn) [with TOut = long unsigned int; TIn = long long unsigned int]	16	static
+parseInteger.hpp:13:3:T ArduinoJson6101_110::parseInteger(const char*) [with T = long unsigned int]	40	static
+convertNumber.hpp:90:65:typename ArduinoJson6101_110::enable_if<(! ArduinoJson6101_110::is_floating_point< <template-parameter-1-1> >::value), TOut>::type ArduinoJson6101_110::convertFloat(TIn) [with TOut = long unsigned int; TIn = double]	16	static
+JsonDeserializer.hpp:302:22:static bool ArduinoJson6101_110::JsonDeserializer<TReader, TStringStorage>::isBetween(char, char, char) [with TReader = ArduinoJson6101_110::UnsafeCharPointerReader; TStringStorage = ArduinoJson6101_110::StringCopier]	16	static
+FloatTraits.hpp:90:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::nan() [with T = double]	8	static
+parseNumber.hpp:26:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber(TFloat) [with TFloat = double; TUInt = long long unsigned int]	24	static
+FloatTraits.hpp:94:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::inf() [with T = double]	8	static
+parseNumber.hpp:19:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber() [with TFloat = double; TUInt = long long unsigned int]	16	static
+parseNumber.hpp:21:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber(TUInt, bool) [with TFloat = double; TUInt = long long unsigned int]	24	static
+FloatTraits.hpp:29:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::make_float(T, TExponent) [with TExponent = int; T = double]	32	static
+convertNumber.hpp:27:1:typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_integral<T>::value && (sizeof (TOut) <= sizeof (TIn))), bool>::type ArduinoJson6101_110::canStorePositiveInteger(TIn) [with TOut = long unsigned int; TIn = long long unsigned int]	16	static
+convertNumber.hpp:69:1:typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_integral<T>::value && ArduinoJson6101_110::is_unsigned< <template-parameter-1-1> >::value), bool>::type ArduinoJson6101_110::canStoreNegativeInteger(TIn) [with TOut = long unsigned int; TIn = long long unsigned int]	16	static
+parseNumber.hpp:29:5:T ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::as() const [with T = long unsigned int; TFloat = double; TUInt = long long unsigned int]	16	static
+limits.hpp:22:12:static T ArduinoJson6101_110::numeric_limits<T, typename ArduinoJson6101_110::enable_if<ArduinoJson6101_110::is_unsigned< <template-parameter-1-1> >::value>::type>::lowest() [with T = long unsigned int]	4	static
+limits.hpp:25:12:static T ArduinoJson6101_110::numeric_limits<T, typename ArduinoJson6101_110::enable_if<ArduinoJson6101_110::is_unsigned< <template-parameter-1-1> >::value>::type>::highest() [with T = long unsigned int]	4	static
+FloatTraits.hpp:109:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::forge(uint32_t, uint32_t) [with T = double]	24	static
+FloatTraits.hpp:45:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::positiveBinaryPowerOfTen(int) [with T = double]	16	static
+FloatTraits.hpp:60:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::negativeBinaryPowerOfTen(int) [with T = double]	16	static
+alias_cast.hpp:23:3:T ArduinoJson6101_110::alias_cast(F) [with T = double; F = long long unsigned int]	24	static
+main.cpp:842:1:void __static_initialization_and_destruction_0(int, int)	32	static
+BasicJsonDocument.hpp:55:3:ArduinoJson6101_110::BasicJsonDocument<TAllocator>::~BasicJsonDocument() [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	16	static
+BasicJsonDocument.hpp:84:8:void ArduinoJson6101_110::BasicJsonDocument<TAllocator>::freePool() [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	24	static
+BasicJsonDocument.hpp:22:8:void ArduinoJson6101_110::AllocatorOwner<TAllocator>::deallocate(void*) [with TAllocator = ArduinoJson6101_110::DefaultAllocator]	16	static
+main.cpp:842:1:cpp)	8	static
+main.cpp:842:1:cpp)	8	static

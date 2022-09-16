@@ -1,0 +1,7 @@
+nvmpg.cpp:11:1:NVMPG::NVMPG(volatile mpgData_t&, volatile uint16_t&)	64	static
+nvmpg.cpp:99:6:virtual void NVMPG::update()	24	static
+nvmpg.cpp:135:6:virtual void NVMPG::slowUpdate()	16	static
+nvmpg.cpp:140:6:virtual void NVMPG::configure()	16	static
+nvmpg.cpp:146:6:virtual void NVMPG::handleInterrupt()	16	static
+nvmpg.h:14:7:NVMPG::~NVMPG()	16	static
+nvmpg.h:14:7:virtual NVMPG::~NVMPG()	16	static

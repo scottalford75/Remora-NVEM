@@ -1,0 +1,5 @@
+../Core/Src/tftpserver.cpp:323:13:void IAP_tftp_cleanup_wr(udp_pcb*, tftp_connection_args*)	8	static
+../Core/Src/tftpserver.cpp:108:14:err_t IAP_tftp_send_ack_packet(udp_pcb*, const ip_addr_t*, int, int)	32	static
+../Core/Src/tftpserver.cpp:276:13:void IAP_tftp_recv_callback(void*, udp_pcb*, pbuf*, const ip_addr_t*, u16_t)	32	static
+../Core/Src/tftpserver.cpp:158:13:void IAP_wrq_recv_callback(void*, udp_pcb*, pbuf*, const ip_addr_t*, u16_t)	536	static
+../Core/Src/tftpserver.cpp:346:6:void IAP_tftpd_init()	8	static

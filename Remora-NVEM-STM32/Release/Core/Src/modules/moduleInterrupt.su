@@ -1,0 +1,2 @@
+../Core/Src/modules/moduleInterrupt.cpp:17:6:virtual void ModuleInterrupt::ISR_Handler()	0	static
+../Core/Src/modules/moduleInterrupt.cpp:6:1:ModuleInterrupt::ModuleInterrupt(int, Module*)	16	static

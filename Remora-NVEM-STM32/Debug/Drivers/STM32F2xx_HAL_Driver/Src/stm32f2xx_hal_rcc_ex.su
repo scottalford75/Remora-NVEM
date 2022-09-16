@@ -1,0 +1,4 @@
+stm32f2xx_hal_rcc_ex.c:86:19:HAL_RCCEx_PeriphCLKConfig	48	static,ignoring_inline_asm
+stm32f2xx_hal_rcc_ex.c:200:6:HAL_RCCEx_GetPeriphCLKConfig	40	static,ignoring_inline_asm
+stm32f2xx_hal_rcc_ex.c:240:19:HAL_RCCEx_EnablePLLI2S	40	static,ignoring_inline_asm
+stm32f2xx_hal_rcc_ex.c:288:19:HAL_RCCEx_DisablePLLI2S	16	static

@@ -1,0 +1,4 @@
+stm32f2xx_hal_pwr_ex.c:107:19:HAL_PWREx_EnableBkUpReg	24	static,ignoring_inline_asm
+stm32f2xx_hal_pwr_ex.c:131:19:HAL_PWREx_DisableBkUpReg	24	static,ignoring_inline_asm
+stm32f2xx_hal_pwr_ex.c:155:6:HAL_PWREx_EnableFlashPowerDown	16	static,ignoring_inline_asm
+stm32f2xx_hal_pwr_ex.c:164:6:HAL_PWREx_DisableFlashPowerDown	16	static,ignoring_inline_asm

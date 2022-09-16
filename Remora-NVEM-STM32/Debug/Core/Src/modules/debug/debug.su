@@ -1,0 +1,7 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+pin.h:54:21:void Pin::set(bool)	16	static
+debug.cpp:4:1:Debug::Debug(std::string, bool)	56	static
+debug.cpp:10:6:virtual void Debug::update()	16	static
+debug.cpp:15:6:virtual void Debug::slowUpdate()	16	static
+debug.h:10:7:Debug::~Debug()	16	static
+debug.h:10:7:virtual Debug::~Debug()	16	static

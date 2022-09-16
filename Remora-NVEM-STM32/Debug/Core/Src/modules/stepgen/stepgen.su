@@ -1,0 +1,50 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+pin.h:54:21:void Pin::set(bool)	16	static
+variantslot.hpp:33:16:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::VariantSlot::data()	16	static
+variantslot.hpp:41:16:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::VariantSlot::next()	16	static
+variantslot.hpp:81:15:const char* ArduinoJson6101_110::VariantSlot::key() const	16	static
+ConstRamStringAdapter.hpp:14:3:ArduinoJson6101_110::ConstRamStringAdapter::ConstRamStringAdapter(const char*)	16	static
+ConstRamStringAdapter.hpp:16:8:bool ArduinoJson6101_110::ConstRamStringAdapter::equals(const char*) const	24	static
+ConstRamStringAdapter.hpp:48:30:ArduinoJson6101_110::ConstRamStringAdapter ArduinoJson6101_110::adaptString(const char*)	24	static
+VariantData.hpp:349:11:uint8_t ArduinoJson6101_110::VariantData::type() const	16	static
+ctype.hpp:9:13:bool ArduinoJson6101_110::isdigit(char)	16	static
+VariantImpl.hpp:70:20:const char* ArduinoJson6101_110::VariantData::asString() const	16	static
+stepgen.cpp:8:6:void createStepgen()	368	static
+stepgen.cpp:33:1:Stepgen::Stepgen(int32_t, int, std::string, std::string, int, volatile int32_t&, volatile int32_t&, volatile uint8_t&)	80	static
+stepgen.cpp:52:6:virtual void Stepgen::update()	16	static
+stepgen.cpp:58:6:virtual void Stepgen::updatePost()	16	static
+stepgen.cpp:63:6:virtual void Stepgen::slowUpdate()	16	static
+stepgen.cpp:68:6:void Stepgen::makePulses()	24	static
+stepgen.cpp:106:6:void Stepgen::stopPulses()	16	static
+stepgen.cpp:113:6:void Stepgen::setEnabled(bool)	16	static
+VariantRef.hpp:116:3:ArduinoJson6101_110::VariantRefBase<TData>::VariantRefBase(TData*) [with TData = ArduinoJson6101_110::VariantData]	16	static
+CollectionImpl.hpp:116:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::CollectionData::get(TAdaptedString) const [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	24	static
+CollectionImpl.hpp:92:21:ArduinoJson6101_110::VariantSlot* ArduinoJson6101_110::CollectionData::getSlot(TAdaptedString) const [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	24	static
+objectshortcuts.hpp:70:18:const TObject* ArduinoJson6101_110::ObjectShortcuts<TObject>::impl() const [with TObject = ArduinoJson6101_110::ObjectRef]	16	static
+VariantCasts.hpp:20:16:const TImpl* ArduinoJson6101_110::VariantCasts<TImpl>::impl() const [with TImpl = ArduinoJson6101_110::MemberProxy<const ArduinoJson6101_110::ObjectRef&, const char*>]	16	static
+variantas.hpp:76:1:typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_same<T, const char*>::value || ArduinoJson6101_110::is_same<T, char*>::value), const char*>::type ArduinoJson6101_110::variantAs(const ArduinoJson6101_110::VariantData*) [with T = const char*]	16	static
+variantas.hpp:55:59:typename ArduinoJson6101_110::enable_if<ArduinoJson6101_110::is_integral<T>::value, T>::type ArduinoJson6101_110::variantAs(const ArduinoJson6101_110::VariantData*) [with T = int]	16	static
+VariantImpl.hpp:18:10:T ArduinoJson6101_110::VariantData::asIntegral() const [with T = int]	16	static
+ObjectFunctions.hpp:26:21:ArduinoJson6101_110::VariantData* ArduinoJson6101_110::objectGet(const ArduinoJson6101_110::CollectionData*, TAdaptedString) [with TAdaptedString = ArduinoJson6101_110::ConstRamStringAdapter]	16	static
+convertNumber.hpp:74:6:TOut ArduinoJson6101_110::convertPositiveInteger(TIn) [with TOut = int; TIn = long long unsigned int]	16	static
+convertNumber.hpp:79:6:TOut ArduinoJson6101_110::convertNegativeInteger(TIn) [with TOut = int; TIn = long long unsigned int]	16	static
+parseInteger.hpp:13:3:T ArduinoJson6101_110::parseInteger(const char*) [with T = int]	40	static
+convertNumber.hpp:90:65:typename ArduinoJson6101_110::enable_if<(! ArduinoJson6101_110::is_floating_point< <template-parameter-1-1> >::value), TOut>::type ArduinoJson6101_110::convertFloat(TIn) [with TOut = int; TIn = double]	16	static
+convertNumber.hpp:27:1:typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_integral<T>::value && (sizeof (TOut) <= sizeof (TIn))), bool>::type ArduinoJson6101_110::canStorePositiveInteger(TIn) [with TOut = int; TIn = long long unsigned int]	16	static
+convertNumber.hpp:54:1:typename ArduinoJson6101_110::enable_if<((ArduinoJson6101_110::is_integral<T>::value && ArduinoJson6101_110::is_signed< <template-parameter-1-1> >::value) && (sizeof (TOut) <= sizeof (TIn))), bool>::type ArduinoJson6101_110::canStoreNegativeInteger(TIn) [with TOut = int; TIn = long long unsigned int]	24	static
+parseNumber.hpp:55:36:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt> ArduinoJson6101_110::parseNumber(const char*) [with TFloat = double; TUInt = long long unsigned int]	144	static
+parseNumber.hpp:29:5:T ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::as() const [with T = int; TFloat = double; TUInt = long long unsigned int]	16	static
+limits.hpp:33:12:static T ArduinoJson6101_110::numeric_limits<T, typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_integral<T>::value && ArduinoJson6101_110::is_signed< <template-parameter-1-1> >::value)>::type>::lowest() [with T = int]	4	static
+limits.hpp:36:12:static T ArduinoJson6101_110::numeric_limits<T, typename ArduinoJson6101_110::enable_if<(ArduinoJson6101_110::is_integral<T>::value && ArduinoJson6101_110::is_signed< <template-parameter-1-1> >::value)>::type>::highest() [with T = int]	8	static
+FloatTraits.hpp:90:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::nan() [with T = double]	8	static
+parseNumber.hpp:26:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber(TFloat) [with TFloat = double; TUInt = long long unsigned int]	24	static
+FloatTraits.hpp:94:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::inf() [with T = double]	8	static
+parseNumber.hpp:19:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber() [with TFloat = double; TUInt = long long unsigned int]	16	static
+parseNumber.hpp:21:3:ArduinoJson6101_110::ParsedNumber<TFloat, TUInt>::ParsedNumber(TUInt, bool) [with TFloat = double; TUInt = long long unsigned int]	24	static
+FloatTraits.hpp:29:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::make_float(T, TExponent) [with TExponent = int; T = double]	32	static
+FloatTraits.hpp:109:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::forge(uint32_t, uint32_t) [with T = double]	24	static
+FloatTraits.hpp:45:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::positiveBinaryPowerOfTen(int) [with T = double]	16	static
+FloatTraits.hpp:60:12:static T ArduinoJson6101_110::FloatTraits<T, 8>::negativeBinaryPowerOfTen(int) [with T = double]	16	static
+alias_cast.hpp:23:3:T ArduinoJson6101_110::alias_cast(F) [with T = double; F = long long unsigned int]	24	static
+stepgen.h:15:7:Stepgen::~Stepgen()	16	static
+stepgen.h:15:7:virtual Stepgen::~Stepgen()	16	static

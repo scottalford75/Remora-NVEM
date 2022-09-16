@@ -1,0 +1,10 @@
+tcp_in.c:104:1:tcp_input	56	static
+tcp_in.c:536:1:tcp_input_delayed_close	16	static
+tcp_in.c:564:1:tcp_listen_input	40	static
+tcp_in.c:663:1:tcp_timewait_input	24	static
+tcp_in.c:709:1:tcp_process	48	static
+tcp_in.c:970:1:tcp_oos_insert_segment	32	static
+tcp_in.c:1016:1:tcp_receive	72	static
+tcp_in.c:1709:1:tcp_getoptbyte	16	static
+tcp_in.c:1729:1:tcp_parseopt	24	static
+tcp_in.c:1832:1:tcp_trigger_input_pcb_close	4	static

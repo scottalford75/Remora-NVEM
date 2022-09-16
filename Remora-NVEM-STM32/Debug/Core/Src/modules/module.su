@@ -1,0 +1,11 @@
+module.cpp:5:1:Module::Module()	16	static
+module.cpp:13:1:Module::Module(int32_t, int32_t)	24	static
+module.cpp:22:1:Module::~Module()	16	static
+module.cpp:22:1:virtual Module::~Module()	16	static
+module.cpp:25:6:void Module::runModule()	16	static
+module.cpp:39:6:void Module::runModulePost()	16	static
+module.cpp:44:6:virtual void Module::update()	16	static
+module.cpp:45:6:virtual void Module::updatePost()	16	static
+module.cpp:46:6:virtual void Module::slowUpdate()	16	static
+module.cpp:47:6:virtual void Module::configure()	16	static
+module.cpp:48:6:virtual void Module::handleInterrupt()	16	static

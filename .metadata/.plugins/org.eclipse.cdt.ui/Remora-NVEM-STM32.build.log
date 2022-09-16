@@ -1,0 +1,19 @@
+10:49:13 **** Incremental Build of configuration Release for project Remora-NVEM-STM32 ****
+make -j12 all 
+arm-none-eabi-g++ -o "Remora-NVEM-STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Local Repositories\Remora-NVEM\Remora-NVEM-STM32\STM32F207VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Remora-NVEM-STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Remora-NVEM-STM32.elf
+ 
+arm-none-eabi-size   Remora-NVEM-STM32.elf 
+arm-none-eabi-objdump -h -S  Remora-NVEM-STM32.elf  > "Remora-NVEM-STM32.list"
+arm-none-eabi-objcopy  -O ihex  Remora-NVEM-STM32.elf  "Remora-NVEM-STM32.hex"
+   text	   data	    bss	    dec	    hex	filename
+  60688	    224	  29160	  90072	  15fd8	Remora-NVEM-STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Remora-NVEM-STM32.hex
+ 
+Finished building: Remora-NVEM-STM32.list
+ 
+
+10:49:14 Build Finished. 0 errors, 0 warnings. (took 982ms)
+

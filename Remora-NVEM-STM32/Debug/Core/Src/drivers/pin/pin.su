@@ -1,0 +1,10 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+pin.cpp:7:1:Pin::Pin(std::string, int)	24	static
+pin.cpp:26:1:Pin::Pin(std::string, int, int)	24	static
+pin.cpp:63:6:void Pin::configPin()	72	static
+pin.cpp:123:6:void Pin::initPin()	16	static
+pin.cpp:136:6:void Pin::setAsOutput()	16	static
+pin.cpp:144:6:void Pin::setAsInput()	16	static
+pin.cpp:152:6:void Pin::pull_none()	16	static
+pin.cpp:159:6:void Pin::pull_up()	16	static
+pin.cpp:166:6:void Pin::pull_down()	16	static

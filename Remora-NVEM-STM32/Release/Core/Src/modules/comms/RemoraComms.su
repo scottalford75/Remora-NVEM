@@ -1,0 +1,6 @@
+../Core/Src/modules/comms/RemoraComms.cpp:11:6:virtual void RemoraComms::update()	0	static
+../Core/Src/modules/comms/RemoraComms.h:19:7:RemoraComms::~RemoraComms()	8	static
+../Core/Src/modules/comms/RemoraComms.h:19:7:virtual RemoraComms::~RemoraComms()	8	static
+../Core/Src/modules/comms/RemoraComms.cpp:4:1:RemoraComms::RemoraComms()	8	static
+../Core/Src/modules/comms/RemoraComms.cpp:34:6:void RemoraComms::dataReceived()	0	static
+../Core/Src/modules/comms/RemoraComms.cpp:40:6:bool RemoraComms::getStatus()	0	static

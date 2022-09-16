@@ -1,0 +1,5 @@
+ip4.c:152:1:ip4_route	24	static
+ip4.c:374:1:ip4_input	32	static
+ip4.c:755:1:ip4_output_if	48	static
+ip4.c:795:1:ip4_output_if_src	40	static
+ip4.c:982:1:ip4_output	48	static

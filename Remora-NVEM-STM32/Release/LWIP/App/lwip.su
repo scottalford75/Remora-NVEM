@@ -1,0 +1,2 @@
+../LWIP/App/lwip.c:57:6:MX_LWIP_Init	40	static
+../LWIP/App/lwip.c:129:6:MX_LWIP_Process	8	static

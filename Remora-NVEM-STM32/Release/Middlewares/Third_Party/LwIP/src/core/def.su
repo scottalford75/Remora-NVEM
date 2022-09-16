@@ -1,0 +1,6 @@
+../Middlewares/Third_Party/LwIP/src/core/def.c:76:1:lwip_htons	0	static
+../Middlewares/Third_Party/LwIP/src/core/def.c:90:1:lwip_htonl	0	static
+../Middlewares/Third_Party/LwIP/src/core/def.c:105:1:lwip_strnstr	24	static
+../Middlewares/Third_Party/LwIP/src/core/def.c:128:1:lwip_stricmp	12	static
+../Middlewares/Third_Party/LwIP/src/core/def.c:163:1:lwip_strnicmp	16	static
+../Middlewares/Third_Party/LwIP/src/core/def.c:198:1:lwip_itoa	20	static

@@ -1,0 +1,5 @@
+../Core/Src/modules/debug/debug.cpp:15:6:virtual void Debug::slowUpdate()	0	static
+../Core/Src/modules/debug/debug.h:10:7:Debug::~Debug()	8	static
+../Core/Src/modules/debug/debug.h:10:7:virtual Debug::~Debug()	8	static
+../Core/Src/modules/debug/debug.cpp:10:6:virtual void Debug::update()	0	static
+../Core/Src/modules/debug/debug.cpp:4:1:Debug::Debug(std::string, bool)	48	static
