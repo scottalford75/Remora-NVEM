@@ -77,7 +77,7 @@ typedef struct {
 	hal_float_t 	*setPoint[VARIABLES];
 	hal_float_t 	*processVariable[VARIABLES];
 	hal_bit_t   	*outputs[DIGITAL_OUTPUTS];
-	hal_bit_t   	*inputs[DIGITAL_INPUTS];
+	hal_bit_t   	*inputs[DIGITAL_INPUTS*2];
 	hal_bit_t   	*NVMPGinputs[NVMPG_INPUTS];
 } data_t;
 
@@ -358,6 +358,12 @@ This is throwing errors from axis.py for some reason...
 				comp_id, "%s.input.%01d", prefix, n);
 		if (retval != 0) goto error;
 		*(data->inputs[n])=0;
+
+		retval = hal_pin_bit_newf(HAL_OUT, &(data->inputs[n+DIGITAL_INPUTS]),
+				comp_id, "%s.input.%01d.not", prefix, n);
+		if (retval != 0) goto error;
+		*(data->inputs[n+DIGITAL_INPUTS])=1;
+
 	}
 	
 	for (n = 0; n < NVMPG_INPUTS; n++) {
@@ -744,10 +750,12 @@ void pru_read()
 						if ((rxData.inputs & (1 << i)) != 0)
 						{
 							*(data->inputs[i]) = 1; 		// input is high
+							*(data->inputs[i+DIGITAL_INPUTS]) = 0; 		// inverted
 						}
 						else
 						{
 							*(data->inputs[i]) = 0;			// input is low
+							*(data->inputs[i+DIGITAL_INPUTS]) = 1; 		// inverted
 						}
 					}
 					
